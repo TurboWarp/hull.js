@@ -1,6 +1,6 @@
 {
     "name": "@turbowarp/ancient-hull.js",
-    "version": "0.2.10",
+    "version": "0.2.11",
     "description": "Very old version of hull.js with backported security fixes -- do not use in new projects",
     "homepage": "https://github.com/TurboWarp/hull.js",
     "keywords": [
