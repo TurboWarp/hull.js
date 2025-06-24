@@ -1,8 +1,8 @@
 {
     "name": "@turbowarp/ancient-hull.js",
     "version": "0.2.10",
-    "description": "JavaScript library that builds concave hulls (shapes) by set of points",
-    "homepage": "https://github.com/AndriiHeonia/hull",
+    "description": "Very old version of hull.js with backported security fixes -- do not use in new projects",
+    "homepage": "https://github.com/TurboWarp/hull.js",
     "keywords": [
         "geometry",
         "concave-hull",
@@ -13,7 +13,7 @@
     "author": "Andrii Heonia <a.heonia@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "git://github.com/AndriiHeonia/hull.git"
+        "url": "git://github.com/TurboWarp/hull.js.git"
     },
     "main": "./src/hull.js",
     "devDependencies": {
