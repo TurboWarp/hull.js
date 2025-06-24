@@ -17,10 +17,9 @@
     },
     "main": "./src/hull.js",
     "devDependencies": {
-        "nodemon": "~1.18.0",
-        "mocha": "~6.0.2",
+        "browserify": "~16.2.3",
         "jshint": "~2.10.2",
-        "browserify": "~16.2.3"
+        "mocha": "~6.0.2"
     },
     "scripts": {
         "watch": "./node_modules/nodemon/bin/nodemon.js --watch src --exec \"./node_modules/browserify/bin/cmd.js ./src/hull.js --standalone hull > ./dist/hull.js\"",
