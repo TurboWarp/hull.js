@@ -23,4 +23,9 @@ module.exports = function() {
     it('should return empty array for empty point set', function() {
         assert.deepEqual(hull([]), []);
     });
+
+    it('should return input if fewer than 4 points', function() {
+        var points = [[141, 408], [160, 400], [177, 430]];
+        assert.deepEqual(hull(points, 50), points);
+    });
 }
